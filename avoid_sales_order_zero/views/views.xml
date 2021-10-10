@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="avoid_sales_order_zero.list">
+      <field name="name">avoid_sales_order_zero list</field>
+      <field name="model">avoid_sales_order_zero.avoid_sales_order_zero</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="avoid_sales_order_zero.action_window">
+      <field name="name">avoid_sales_order_zero window</field>
+      <field name="res_model">avoid_sales_order_zero.avoid_sales_order_zero</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="avoid_sales_order_zero.action_server">
+      <field name="name">avoid_sales_order_zero server</field>
+      <field name="model_id" ref="model_avoid_sales_order_zero_avoid_sales_order_zero"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="avoid_sales_order_zero" id="avoid_sales_order_zero.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="avoid_sales_order_zero.menu_1" parent="avoid_sales_order_zero.menu_root"/>
+    <menuitem name="Menu 2" id="avoid_sales_order_zero.menu_2" parent="avoid_sales_order_zero.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="avoid_sales_order_zero.menu_1_list" parent="avoid_sales_order_zero.menu_1"
+              action="avoid_sales_order_zero.action_window"/>
+    <menuitem name="Server to list" id="avoid_sales_order_zero" parent="avoid_sales_order_zero.menu_2"
+              action="avoid_sales_order_zero.action_server"/>
+-->
+  </data>
+</odoo>
