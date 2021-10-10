@@ -27,6 +27,10 @@ compañía del blog al que pertenecen. """,
         # 'views/views.xml',
         # 'views/templates.xml',
 
+        # security
+        'security/blog_blog.xml',
+        'security/blog_post.xml',
+
         # views
         'views/inherited/blog.xml',
         'views/inherited/blog_post.xml',
