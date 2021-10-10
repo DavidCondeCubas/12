@@ -2,7 +2,7 @@
 <odoo>
     <record id="access_to_blog_post_depends_company" model="ir.rule">
         <field name="name">Blog post: Allow access depends of company</field>
-        <field name="model_id" ref="website_blog.model_blog_blog"/>
+        <field name="model_id" ref="website_blog.model_blog_post"/>
         <field name="perm_read">1</field>
         <field name="perm_write">1</field>
         <field name="perm_create">1</field>
