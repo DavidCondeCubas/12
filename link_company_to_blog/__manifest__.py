@@ -2,25 +2,24 @@
 {
     'name': "link_company_to_blog",
 
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+    'summary': """ Poder asociar un blog a una única compañía y que las noticias asociadas a ese blog, heredan la
+compañía del blog al que pertenecen. """,
 
     'description': """
         Long description of module's purpose
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "David Conde cubas",
+    'website': "https://www.linkedin.com/in/david-conde-cubas-6a16a619a",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/13.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Uncategorized',
-    'version': '0.1',
+    'version': '0.1.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'website_blog'],
 
     # always loaded
     'data': [
