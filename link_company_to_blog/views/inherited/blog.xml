@@ -6,7 +6,7 @@
         <field name="inherit_id" ref="website_blog.view_blog_blog_form"/>
         <field name="arch" type="xml">
             <xpath expr="//field[3]" position="after">
-                <field name="comapny_id"/>
+                <field name="company_id"/>
             </xpath>
         </field>
     </record>
