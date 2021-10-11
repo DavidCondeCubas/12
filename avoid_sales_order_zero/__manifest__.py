@@ -27,6 +27,7 @@ precisamente sólo aquellas líneas que tengan la cantidad del producto a cero.
 
     # always loaded
     'data': [
+        'views/inherited/sale_order.xml'
         # 'security/ir.model.access.csv',
         # 'views/views.xml',
         # 'views/templates.xml',
