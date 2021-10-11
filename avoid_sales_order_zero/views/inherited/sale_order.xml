@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record model="ir.ui.view" id="avoid_zero_order_sales_order_form_view">
+        <field name="name">avoid.zero.order.sales.order.form.view</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header[1]" position="inside">
+                <button confirm="Se eliminarán todas las order lines con cantidad 0. ¿Estas seguro de borrarlas?" name="remove_order_line_zero_units" string="Remove Empty Order lines" type="object" attrs="{'invisible': [('state', 'not in', ['draft'])]}"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

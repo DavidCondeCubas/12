@@ -4,7 +4,7 @@ from odoo import models, fields, api, _
 
 
 class BlogPost(models.Model):
-    """ Student model """
+    """ Blog Post model """
 
     ######################
     # Private Attributes #

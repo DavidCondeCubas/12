@@ -2,11 +2,11 @@
 {
     'name': "link_company_to_blog",
 
-    'summary': """ Poder asociar un blog a una única compañía y que las noticias asociadas a ese blog, heredan la
-compañía del blog al que pertenecen. """,
+    'summary': """ ASOCIAR BLOGS/NOTICIAS A UNA COMPAÑIA""",
 
     'description': """
-        Long description of module's purpose
+        Poder asociar un blog a una única compañía y que las noticias asociadas a ese blog, heredan la
+compañía del blog al que pertenecen. 
     """,
 
     'author': "David Conde cubas",

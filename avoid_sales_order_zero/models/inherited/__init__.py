@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-from . import inherited
+from . import sale_order
